@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botão com Link</title>
+  <style>
+
+    :root {
+            --bg: #111;
+            }
+            body {
+            background: var(--bg);
+            color: var(--col);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 10em;
+            max-height: 5em;
+            margin: 0 auto;
+            font-size: calc(.7em + 1vw);
+            padding: 1em;
+            }
+
+    .botao {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    .botao:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="botao">Abrir Link</a>
+</body>
+</html>

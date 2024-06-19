@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Interativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="meuBotao">Clique Aqui rsrs</button>
+    <section>
+            <h1><p>Clica ai</p></h1>
+        </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+        body {
+            background: var(--bg);
+            color: var(--col);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 40em;
+            margin: 0 auto;
+            font-size: calc(.7em + 1vw);
+            padding: 1em;
+        }
+
+        h1 {
+            min-height: 2.3em;
+            background: url('../icon.png');
+            background-size: 2.3em;
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 3em;
+            font-weight: normal;
+            max-width: 15em;
+            color: var(--heading);
+            font-size: 1.9em;
+        }
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+
+}
+
+</style>
+
+<script>
+// script.js
+const meuBotao = document.getElementById('meuBotao');
+
+meuBotao.addEventListener('click', function() {
+    window.open('https://www.douradosnews.com.br/noticias/brasil/homens-que-olham-seios-vivem-mais/89304/');
+});
+
+</script>
